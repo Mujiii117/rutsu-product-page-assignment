@@ -1,0 +1,153 @@
+@media (max-width: 1500px){
+    
+   .ProductSectionWidth {
+        width: 1200px;
+        margin: auto;}
+    .FunctionSectionWidth {width: 1100px;
+    }  
+    .headerPageWidth {
+        width: 1100px;
+        margin: auto;
+    }          
+    header nav ul li a {
+        color: var(--tertiary-color);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        position: relative;
+    }
+    .FitSectionWidth {
+        width: 1100px;
+        margin: auto;
+    }
+    .FavouritesWidth {
+        width: 1100px;
+        margin: auto;
+    }
+}
+@media (max-width: 1200px){
+        
+    .ProductSectionWidth {
+        width: 800px;
+        margin: auto;}
+    .ProductTitle {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44.4px;
+        letter-spacing: -2px;
+        color: var(--text-color);
+        margin-bottom: 10px;}
+    .Accordion {
+        border: none;
+        overflow: hidden;
+        max-width: 90%;
+    }
+    .ShopPay {
+        font-size: 9px;
+    
+    }
+    .FunctionSectionWidth {width: 700px;
+    }
+    .FunctionSectionBox {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--tertiary-color-2);
+    border-radius: 5px;
+    max-width: 50%;
+    flex: 1 1 calc(50% - 20px);
+    transition-duration: 0.5s;
+    flex-wrap: wrap;
+    }
+    .headerPageWidth {
+        width: 780px;
+        margin: auto;
+    }    
+    header nav ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+    header .logo {
+        max-width: 100px;
+    }
+    .FitSectionWidth {
+        width: 700px;
+        margin: auto;
+    }
+    .FavouritesWidth {
+        width: 800px;
+        margin: auto;
+    }
+}
+@media (max-width: 767px){
+    
+    .ProductSectionWidth {
+        width: 600px;
+        margin: auto;}
+    .AddtoCart {          
+        font-size: 16px;
+    } 
+    .FunctionSectionWidth {width: 300px;
+    } 
+    .FunctionSectionBox {
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--tertiary-color-2);
+    border-radius: 5px;
+    max-width: 100%;
+    flex: 1 1 calc(100% - 20px);
+    transition-duration: 0.5s;
+    flex-wrap: wrap;
+    }     
+    .FunctionSection h2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 36.4px;
+        text-align: center;
+        color: #151414;
+        border-bottom: 1px solid var(--primary-color);
+        padding-bottom: 15px;
+    }  
+    .FunctionSection h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+        color: #151414;
+        margin: 20px 0px;
+    }      
+    .fa, .fa-brands, .fa-regular, .fa-solid, .fab, .far, .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: var(--fa-display,inline-block);
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-rendering: auto;
+        max-width: 10px;
+    }
+    .FitSectionWidth {
+        width: 600px;
+        margin: auto;
+    }
+    .FavouritesWidth {
+        width: 600px;
+        margin: auto;
+    }
+        
+}
+@media (max-width: 575px){
+    
+    .ProductSectionWidth {
+        width: 400px;
+        margin: auto;}
+        .FavouritesWidth {
+            width: 400px;
+            margin: auto;
+        }
+
+}

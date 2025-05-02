@@ -1,0 +1,1 @@
+# rutsu-product-page-assignment
